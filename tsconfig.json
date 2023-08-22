@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["jest", "node", "testing-library__jest-dom"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./path_to_your_custom_type_definitions"
+    ]
+  },
+  "include": [
+    "src",
+    "__tests__/useCharacters.tests.tsx",
+    "src/hooks/useCharacters.test.tsx"
+  ]
+}
