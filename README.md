@@ -12,7 +12,7 @@ This application provides a UI interface to test and interact with the Starwars 
 
 1. **Clone the repository**:
    `bash
-git clone [repository_link]
+git clone [https://github.com/rendomnet/sw-react-ts]
 `
 
 2. **Install dependencies**:
